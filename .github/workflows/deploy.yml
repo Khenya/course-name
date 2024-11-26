@@ -1,11 +1,6 @@
 name: Desplegando pagina estatica en S3 3
-on:
- push:
-   branches:
-     - main 
-     - brenda 
-
-
+on: workflow_dispatch
+    
 jobs:
  deploy:
    runs-on: ubuntu-latest
